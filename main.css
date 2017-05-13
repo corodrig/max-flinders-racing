@@ -1,6 +1,12 @@
 body {
   position: relative;
+  font-family: 'Roboto', sans-serif;
 }
+
+h3, h2{
+  font-family: Bangers, cursive;
+}
+
 .navbar {
   margin-bottom: 0px;
   background-color: #2d2d30;
@@ -34,8 +40,6 @@ body {
 }
 
 .carousel-inner img {
-  /*-webkit-filter: grayscale(90%);*/
-  /*filter: grayscale(90%);*/
   width: 100%;
   margin: auto;
 }
@@ -63,7 +67,7 @@ body {
 }
 
 .bg-0 {
-  /*background: #65E48D;*/
+  background: #FFEb3b;
 
 }
 
@@ -72,16 +76,17 @@ body {
   margin-bottom: 1.563em;
   width: 80%;
   height: 80%;
-  /*opacity: 0.7;*/
 }
 
 .person:hover {
-  border-color: #C50000;
+  border-color: #2d2d30;
 }
 
 .bg-1 {
     background: #2d2d30;
     color: #bdbdbd;
+    padding-top: 5em;
+    padding-bottom: 5em;
 }
 .bg-1 h3 {
   color: #fff;
@@ -100,7 +105,7 @@ body {
 }
 
 footer {
-    background-color: #2d2d30;
+    background-color: #171820;
     color: #f5f5f5;
     padding: 32px;
 }
@@ -112,6 +117,7 @@ footer a {
 footer a:hover {
     color: #777;
     text-decoration: none;
+
 }
 
 .col-md-12 .btn {
@@ -122,4 +128,23 @@ footer a:hover {
 
 textarea {
   resize: none;
+}
+
+.sponsors {
+  background: #FFEb3b;
+}
+
+.contact-us {
+  background: #2d2d30;
+  color: #fff;
+}
+
+div#team.container.text-center {
+  padding-top: 1.25em;
+  padding-bottom: 1.25em;
+}
+
+div#bio.row {
+  font-family: Bangers, cursive;
+  font-size: 2em;
 }
