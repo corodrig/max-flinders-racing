@@ -85,10 +85,12 @@ h3, h2{
 .bg-1 {
     background: #2d2d30;
     color: #bdbdbd;
-    padding-top: 5em;
+    padding-top: inherit;
     padding-bottom: 5em;
 }
 .bg-1 h3 {
+  padding-bottom: 0.5em;
+  font-size: 4em;
   color: #fff;
 }
 .bg-1 p {
@@ -147,4 +149,8 @@ div#team.container.text-center {
 div#bio.row {
   font-family: Bangers, cursive;
   font-size: 2em;
+}
+
+div.bg-0 h3 {
+    font-size: 3em;
 }

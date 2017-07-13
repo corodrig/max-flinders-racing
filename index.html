@@ -25,7 +25,7 @@
       </div>
       <div class="collapse navbar-collapse" id="myNavBar">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#top">Home</a></li>
+          <li><a href="#home">Home</a></li>
           <li><a href="#team">Team</a></li>
           <li><a href="#upcoming">Next Race</a></li>
           <li><a href="#contact">Contact</a></li>
@@ -45,7 +45,7 @@
     </ol>
 
     <!-- Wrapper for Slides -->
-    <div class="carousel-inner" role="listbox">
+    <div id="home" class="carousel-inner" role="listbox">
       <div class="item active">
         <img src="pics/racing.jpg" alt="Max Flinders taking a corner during a race" />
         <div class="carousel-caption">
@@ -199,7 +199,7 @@
       <span class="glyphicon glyphicon-chevron-up"></span>
     </a><br><br>
     <p>made by chris</p>
-    <p>i accept swag and riding lessons in lieu of cash</p>
+    <p>swag and riding lessons accepted in lieu of cash</p>
   </footer>
 
   <script>
@@ -208,7 +208,7 @@
       $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
 
         // Make sure this.hash has a value before overriding default behavior
-        if (this.hash !== "" && this.hash != "#top") {
+        if (this.hash !== "") {
 
           // Prevent default anchor click behavior
           event.preventDefault();
@@ -222,10 +222,8 @@
             scrollTop: $(hash).offset().top
           }, 600, function() {
 
-            // Add hash (#) to URL when done scrolling (default click behavior)
-            window.location.hash = hash;
           });
-        } // End if
+        }
       });
     })
   </script>
