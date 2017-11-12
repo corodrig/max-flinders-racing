@@ -189,14 +189,25 @@ iframe {
 
 @media (max-width: 37.5em) {
   iframe {
-    width: 100%; /* hide carousel text when screen < 600px wide */
+    width: 100%;
     height: 100%;
-    /*text-align: center;*/
-    /*display: flex;*/
-    /*padding-left: 2.5em;*/
   }
 }
 
 #tracker.col-md-6 span {
   float: right;
+}
+
+div#products.container {
+  background-color: #FFEb3b;
+  width: 100%;
+  text-align: center;
+}
+
+div#header {
+  background-color: #2d2d30;
+  width: 100%;
+  color: white;
+  opacity: 0.9;
+  margin-bottom: 2em;
 }
