@@ -154,3 +154,49 @@ div#bio.row {
 div.bg-0 h3 {
     font-size: 3em;
 }
+
+.container-fluid {
+  padding-top: 0.5em;
+  width: 100%;
+}
+
+div.container-fluid.col-md-6 {
+  vertical-align: top;
+  display: inline-block;
+  width: calc(100% / 2);
+  position: relative;
+}
+
+div#tracker.col-md-6 {
+  vertical-align: middle;
+  margin-top: 121.25px;
+}
+
+@media (max-width: 37.5em) {
+  div#tracker.col-md-6 {
+    margin-top: -0.75em;
+  }
+}
+
+#map.col-md-6 {
+  text-align: right;
+}
+
+iframe {
+  width: 450px;
+  height: 337.5px;
+}
+
+@media (max-width: 37.5em) {
+  iframe {
+    width: 100%; /* hide carousel text when screen < 600px wide */
+    height: 100%;
+    /*text-align: center;*/
+    /*display: flex;*/
+    /*padding-left: 2.5em;*/
+  }
+}
+
+#tracker.col-md-6 span {
+  float: right;
+}

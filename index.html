@@ -125,15 +125,24 @@
 
   <!--Upcoming Races Section-->
   <div class="bg-1">
-    <div id="upcoming" class="container">
+    <div id="upcoming" class="container-fluid">
       <h3 class="text-center">Next Races</h3>
       <p class="text-center">Catch us at a racetrack near you!</p>
-
-      <ul class="list-group">
-        <li class="list-group-item"><strong>Road Atlanta</strong><span class="label label-danger">12th Overall | 5th in Class</span></li>
-        <li class="list-group-item"><strong>Virginia International Raceway</strong><span class="label label-warning">Pole Position</span></li>
-        <li class="list-group-item"><strong>Upcoming Race 3</strong></li>
-      </ul>
+      <div class="row">
+        <div id="tracker" class="col-md-6">
+          <ul class="list-group">
+            <li class="list-group-item"><strong>Road Atlanta</strong><span class="label label-danger">12th Overall | 5th in Class</span></li>
+            <li class="list-group-item"><strong>Virginia International Raceway</strong><span class="label label-warning">Pole Position</span></li>
+            <li class="list-group-item"><strong>Laguna Seca</strong></li>
+          </ul>
+        </div>
+        <div id="map" class="col-md-6">
+          <iframe
+            frameborder="0" style="border:0"
+            src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCT0yppFzeJb-LIOe-asqBaeGynBXVdI8A&q=Laguna+Seca,California&zoom=5">
+          </iframe>
+        </div>
+      </div>
     </div>
   </div>
 
